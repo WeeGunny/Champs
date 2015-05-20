@@ -8,7 +8,7 @@ public class PanIcons extends JPanel {
     
    public void paint(Graphics g) {
 //       String sName= getChamp();
-       String sName="Annie";
+       String sName="Varus";
        Icon=getImage(sName+"Square.png");   
        Graphics2D g2 = (Graphics2D)g;
        g2.drawImage(Icon, 0, 0, 120, 120, this);

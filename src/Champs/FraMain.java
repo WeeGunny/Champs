@@ -6,11 +6,11 @@ import javax.swing.JFrame;
 public class FraMain extends JFrame {
 
     FraMain() {
-        PanIcons panIcons = new PanIcons();
+        PanMain panMain = new PanMain();
         setSize(400, 400);
         setTitle("Champion Info");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        add(panIcons);
+        add(panMain);
         setVisible(true);
 
     }
