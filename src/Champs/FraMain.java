@@ -8,7 +8,7 @@ public class FraMain extends JFrame {
     FraMain() {
         PanIcons panIcons = new PanIcons();
         setSize(400, 400);
-        setTitle("Empty Frame");
+        setTitle("Champion Info");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         add(panIcons);
         setVisible(true);
